@@ -44,8 +44,8 @@ span{
 
 @media screen and (width<550) {
     .square{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         position: relative;
     }
     span{
