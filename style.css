@@ -41,3 +41,18 @@ span{
 .row-even>div:nth-child(odd){
     background-color: burlywood;
 }
+
+@media screen and (width<550) {
+    .square{
+        height: 50px;
+        width: 50px;
+        position: relative;
+    }
+    span{
+        font-size: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
+}
