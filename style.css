@@ -41,6 +41,12 @@ span{
 .row-even>div:nth-child(odd){
     background-color: burlywood;
 }
+.row>.white:hover{
+    background-color: #fff;
+}
+.row>.black:hover{
+    background-color: #000;
+}
 
 @media screen and (width<550px) {
     .container{
